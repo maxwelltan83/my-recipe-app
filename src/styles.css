@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import '~bootstrap/css/bootstrap-reboot';
+@import '~bootstrap/css/bootstrap-grid'; */
+/* @import '../node_modules/bootstrap/dist/css/bootstrap.min.css'; */
+/* @import '../node_modules/bootstrap/dist/css/bootstrap-reboot.min.css';
+@import '../node_modules/bootstrap/dist/css/bootstrap-grid.min.css'; */
+
+
+/* Overwrite Bootstrap */
+/* .nav-item a:hover {
+    color: dodgerblue !important;
+    cursor: pointer;
+}
+
+.list-group-item a:hover {
+    color: dodgerblue !important;
+    cursor: pointer;
+} */
+
+a:hover {
+    color: dodgerblue !important;
+    /* color: white !important; */
+    /* cursor: progress; */
+    background-color: rgb(233, 233, 233);
+}
+
+.active {
+    /* color: rebeccapurple !important; */
+    background-color: lightskyblue !important;
+}
+
+/* .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #ccc !important;
+} */
+
+/* Define CSS Grid System */
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    /* grid-template-rows: 40px 100px 40px; */
+    grid-auto-rows: 70px;
+}
+
+.header {
+    grid-column: span 12;
+}
+
+.menu {
+    grid-column: span 4;
+}
+
+.content {
+    grid-column: span 8;
+}
+
+.footer {
+    grid-column: span 12;
+}
+
+.g-column {
+    grid-column: span 7;
+}
+
+/* End of CSS Grid System */
